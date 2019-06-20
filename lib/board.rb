@@ -45,4 +45,3 @@ class Board
         @cells.map.with_index{|a,i|i if a==" "}
     end
 
-end 
