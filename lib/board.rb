@@ -44,4 +44,5 @@ class Board
     def find_empty_cells
         @cells.map.with_index{|a,i|i if a==" "}
     end
+  end 
 
